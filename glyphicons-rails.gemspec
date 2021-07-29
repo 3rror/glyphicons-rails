@@ -23,4 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_dependency "sass", "~> 3.3"
   spec.add_dependency "sass-rails"
+
+  spec.post_install_message = "WARNING: This gem is deprecated!"
 end
